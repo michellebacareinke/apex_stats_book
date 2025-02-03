@@ -59,4 +59,4 @@ In summary, both the number of scores in the distribution and the outlier's dist
 
 Unlike the mean, other measures of central tendency, i.e., the median and mode, are less impacted by outliers. In all, you should be skeptical of the mean whenever the distribution includes outliers.
 
-Reference section example: [cetnral tendency](cetnral_tendency.md)
+Reference section example: [cetnral tendency](central_tendency.md)
