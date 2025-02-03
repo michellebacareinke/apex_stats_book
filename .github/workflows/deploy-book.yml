@@ -1,13 +1,12 @@
-name: deploy-book
+name: Deploy Book
 
 on:
   push:
     branches:
       - master
-      - main
 
 jobs:
-  deploy-book:
+  deploy:
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -15,36 +14,35 @@ jobs:
       id-token: write
 
     steps:
+    # Checkout the repository
     - name: Checkout repository
       uses: actions/checkout@v3
-      with:
-        submodules: true
 
+    # Set up Python environment
     - name: Set up Python 3.11
       uses: actions/setup-python@v4
       with:
         python-version: 3.11
 
+    # Install dependencies
     - name: Install dependencies
       run: |
         pip install -r requirements.txt
 
-    - name: Cache executed notebooks
-      uses: actions/cache@v3
-      with:
-        path: mybook/_build/.jupyter_cache
-        key: jupyter-book-cache-${{ hashFiles('requirements.txt') }}
-
+    # Build the book
     - name: Build the book
       run: |
-        jupyter-book build mybook
+        jupyter-book build .
 
-    # Upload the built book to GitHub Pages
+    # Upload artifact for GitHub Pages
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v2
       with:
-        path: "mybook/_build/html"  # Path to the folder containing the built HTML files
+        path: "_build/html"
 
+    # Deploy to GitHub Pages
     - name: Deploy to GitHub Pages
-      id: deployment
       uses: actions/deploy-pages@v2
+      with:
+        branch: gh-pages  # Deploy to gh-pages branch
+        folder: _build/html  # Folder to deploy
