@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-theme: jekyll-theme-minimal
-title: APEX_Stats
-description: Mini concept reviews for APEX Stats Coding Modules.
-=======
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
@@ -35,4 +30,3 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
->>>>>>> 3c01fc7 (Initial commit: Deploy Jupyter Book)
