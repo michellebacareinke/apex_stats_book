@@ -29,20 +29,14 @@ jobs:
       run: |
         pip install -r requirements.txt
 
-    - name: Cache executed notebooks
-      uses: actions/cache@v3
-      with:
-        path: mybook/_build/.jupyter_cache
-        key: jupyter-book-cache-${{ hashFiles('requirements.txt') }}
-
     - name: Build the book
       run: |
-        jupyter-book build mybook
+        jupyter-book build .  # Adjust path if needed
 
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v2
       with:
-        path: "mybook/_build/html"
+        path: "_build/html"  # Adjust path if needed
 
     - name: Deploy to GitHub Pages
       id: deployment
