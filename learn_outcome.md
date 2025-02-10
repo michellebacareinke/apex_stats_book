@@ -1,7 +1,6 @@
 ---
 title: "Learning Outcomes"
-previous: "/background.md"
-next: "/freq_dist.md"
+nav_order: 2
 ---
 
 ### Learning Outcomes
@@ -23,3 +22,8 @@ These reviews below and accompanying code exercises map onto several learning ob
 * LO 13: Select the appropriate technique for testing a hypothesis and interpret the result
 * LO 14: Use regression lines and ANOVA for estimation and inference, and interpret the associated statistics
 * LO 15: Use appropriate statistical techniques to analyze and interpret applications based on data from at least four of the following disciplines:  business, economics, social science, psychology, political science, administration of justice, life science, physical science, health science, information technology, and education
+
+
+---
+
+[← Previous](background.md) | [Next →](freq_dist.md)
