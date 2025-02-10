@@ -2,7 +2,6 @@
 title: APEX STATS
 nav_order: 1
 ---
-![APEX Stats Logo](logo.png)
 
 # Welcome to APEX STATS Key Concepts 
 
