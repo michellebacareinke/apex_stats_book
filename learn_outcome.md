@@ -1,7 +1,10 @@
 ---
 title: "Learning Outcomes"
+layout: default
 nav_order: 3
+toc: true
 ---
+
 
 # **Learning Outcomes**
 
