@@ -3,7 +3,7 @@ title: "Central Tendency"
 nav_order: 5
 ---
 
-# Central Tendency
+# **Central Tendency**
 <img src="https://www.publicdomainpictures.net/pictures/260000/velka/soccer-football-player-american.jpg" width="400"/>
 
 Image credit: ["Soccer, Football Player, American"](https://www.publicdomainpictures.net/en/view-image.php?image=257368&picture=soccer-football-player-american) in the public domain
