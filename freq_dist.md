@@ -15,4 +15,5 @@ Release 1.4
 Image credit: ["Soccer, Football Player, American"](https://www.publicdomainpictures.net/en/view-image.php?image=257368&picture=soccer-football-player-american) in the public domain
 
 ---
-[← Previous](learn_outcome.md)         |        [Next →](central_tendency.md)
+
+[← Previous](learn_outcome.md) | [Next →](central_tendency.md)
