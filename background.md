@@ -13,4 +13,8 @@ The following background is recommended before starting this module:
 
 ---
 
-[← Previous](index.md) | [Next →](learn_outcome.md)
+<div style="display: flex; justify-content: space-between; margin-top: 20px;">
+    <a href="{{ site.baseurl }}/index.md" style="text-decoration: none; font-size: 16px;">⬅ Previous</a>
+    <a href="{{ site.baseurl }}/learn_outcome.md" style="text-decoration: none; font-size: 16px;">Next ➡</a>
+</div>
+
