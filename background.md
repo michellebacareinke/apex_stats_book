@@ -1,7 +1,7 @@
 ---
 title: "Background"
-previous: null
-next: "/learn_outcome.md"
+prev: index.md
+next: learn_outcome.md
 ---
 
 # Background
