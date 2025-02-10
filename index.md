@@ -3,7 +3,7 @@ title: APEX STATS
 nav_order: 1
 ---
 
-# APEX STATS Key Concepts 
+# APEX Stats Key Concepts 
 
 Modules by David Schuster
 
