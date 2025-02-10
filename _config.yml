@@ -23,7 +23,7 @@ bibtex_bibfiles:
 repository:
   url: https://github.com/michellebacareinke/APEX_stats_book  # GitHub repository URL
   path_to_book: ""  # Path to book (no sub folder, root directory)
-  branch: gh-pages  # Branch deploying from
+  branch: main  # Branch deploying from
 
 # Markdown processing (Jekyll uses kramdown by default)
 markdown: kramdown
