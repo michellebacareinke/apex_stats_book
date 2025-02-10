@@ -4,7 +4,7 @@ theme: jekyll-theme-cayman
 # Book settings
 title: APEX Stats
 author: David Schuster
-logo: logo.png
+logo: assests/logo.png
 
 # GitHub Pages URL settings
 url: "https://michellebacareinke.github.io"
