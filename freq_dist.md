@@ -3,7 +3,7 @@ title: "Frequency Distributions"
 nav_order: 4
 ---
 
-# Frequency Distributions
+# **Frequency Distributions**
 Module by David Schuster with code by Andy Qui Le with thanks to Sarah Ghannadan for usability improvements
 
 Licensed under CC BY-NC-SA
