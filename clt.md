@@ -1,6 +1,6 @@
 ---
 title: "Central Limit Theorem"
-nav_order: 5
+nav_order: 6
 ---
 
 # Central Limit Theorem
@@ -18,28 +18,28 @@ This module will introduce you to the central limit theorem, which helps us just
 
 So far, we have encountered population distributions and sample distributions. Now, we introduce a third kind of distribution, one that is created when we take repeated random samples. This third kind of distribution is called a **sampling distribution**. Yes, sampling distribution sounds very close to sample distribution. They sound so similar, people often confuse them. But, they are different kinds of distributions. Sampling distributions have some interesting properties that are important to understanding inferential statistics.
 
-### Population versus Sample
+## Population versus Sample
 
 The coding module uses real data collected by the World Bank. In our data file, we have the 2018 life expectancy at birth, in years, for over 100 countries. Imagine that we want to understand the data for the included countries and only the included countries. If the included countries are the only ones we care about, then we can treat these data as a population. For the purpose of our example, we will treat these data as a population. However, if you wanted to define all countries as your population, the data file is a subset of all countries. Although it can be challenging that these data could either be a population or a sample, it illustrates that populations are defined by researchers. The population is the group of interest to the researcher.
 
-### Sample Size and Population Size
+## Sample Size and Population Size
 The **size** of a distribution is the number of units it contains. In mathematics, sample size is typically represented as $n$ and population size is typically represented as $N$. In APA-style writing, however, sample size is represented as $N$, and $n$ is used to represent a subsample (a part of a sample, such as the units in one condition). There does not seem to be a recommended symbol for population size in APA style. Why not? Many times, the population size is unknown.
 
 We can use Python to find the population size, or the number of scores in the distribution. Python calls this the length of the variable, so we use a function called `len()`.
 
 
-### Population Parameters
+## Population Parameters
 
 Population parameters are values that describe the population distribution. These descriptive statistics are characteristics of an entire group, such as the mean and standard deviation of the population.
 
 
-### Visualizing the Population
+## Visualizing the Population
 
 
 You can explore a data set visually by generating a histogram of the population. A **histogram** gives us a visual representation of a frequency distribution. The key to understanding histograms is to remember that they always have **frequency** plotted on the y-axis (vertical) and the values plotted on the x-axis (horizontal).
 
 
-### Sampling Distributions
+## Sampling Distributions
 
 Next, we will expand this discussion to consider what would happen if we took repeated samples. That is, taking one sample, then take another, and another. Our units will be sample means instead of scores.
 
@@ -51,7 +51,7 @@ If you take repeated samples, you can plot the mean of each sample. A collection
 
 In the accompanying coding module, you are asked to generate a sampling distribution based on a sample size of 5. The code draws a sample from the population 2000 times, randomly chooses 5 values each time, calculates the mean of the sample, and then adds it to the sampling distribution.
 
-### Connecting the Demonstration to Sampling Distributions in General
+## Connecting the Demonstration to Sampling Distributions in General
 
 Some interesting things happened in the coding exercise. Before we continue, make sure you understand the key steps you took to construct a sampling distribution:
 
@@ -70,7 +70,7 @@ Why is this useful? The tendency of repeated random samples to perfectly approxi
 
 It has taken us a lot of steps and several examples to get here. We are now ready for a more formal definition of the central limit theorem.
 
-### Define the Central Limit Theorem
+## Define the Central Limit Theorem
 The central limit theorem (CLT) says that sampling distributions have special properties.
 
 The CLT says that: (1) assuming two things, (2) if you do a series of steps, then (3) you will obtain an outcome. The outcome has implications for us.
@@ -80,7 +80,7 @@ The CLT says that: (1) assuming two things, (2) if you do a series of steps, the
 - The **outcome** is that the histogram of the sample means is normally distributed. We call this the sampling distribution of the mean. It will always be normally distributed under the CLT, as long as we have a sufficiently large sample size.
 - This frequency distribution, like all frequency distributions, has a standard deviation called the standard error of the mean.
 
-### Standard Error
+## Standard Error
 
 Sampling distributions have a mean and standard deviation, just like any other distribution we have seen. However, the standard deviation of a sampling distribution has a special name: the standard error.
 
@@ -95,11 +95,11 @@ Why do we need the standard error formula if we could just find the standard dev
 Notice that if we assume that the central limit theorem applies, we already know the shape, mean, and standard deviation of a sampling distribution without having to construct it.
 
 
-### What's Next
+## What's Next
 
 Where this gets useful is using the sampling distribution to make statements about the probability of obtaining a single sample mean. In many research contexts, we work with a single sample distribution. We do not have access to the population distribution nor the sampling distribution. But, we can use the central limit theorem to imagine what the sampling distribution looks like (it is normal with its mean equal to the population mean and a standard error based on population standard deviation and sample size). Because the sampling distribution is made of sample means, it tells us about what we can expect if we take one single random sample from a population.
 
-### Summary
+## Summary
 
 To summarize, the central limit theorem allows us to say useful things for research:
 
