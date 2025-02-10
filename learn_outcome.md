@@ -1,3 +1,9 @@
+---
+title: "Learning Outcomes"
+previous: "/background.md"
+next: "/freq_dist.md"
+---
+
 ### Learning Outcomes
 
 These reviews below and accompanying code exercises map onto several learning objective(s) for the C-ID descriptor for [Introduction to Statistics](https://c-id.net/descriptors/final/show/365). Upon successful completion of the course, you will be able to:  
