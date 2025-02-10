@@ -1,10 +1,10 @@
 ---
 layout: default
 title: APEX Stats
+nav_order: 1
 ---
 
 # Welcome to APEX Stats
-This is the homepage of the book.
 
 ## Table of Contents
 - [Background](background.md)
