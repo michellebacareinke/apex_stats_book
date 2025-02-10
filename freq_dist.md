@@ -1,6 +1,8 @@
 ---
 title: "Frequency Distributions"
+layout: default
 nav_order: 4
+toc: true
 ---
 
 # **Frequency Distributions**
