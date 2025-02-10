@@ -25,6 +25,21 @@ repository:
   path_to_book: ""  # Path to book (no sub folder, root directory)
   branch: gh-pages  # Branch deploying from
 
+# Markdown processing (Jekyll uses kramdown by default)
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+# Enable Jekyll for GitHub Pages
+lsi: false
+safe: true
+source: .  # Root directory
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+  
 # GitHub buttons for issues and repository
 html:
   use_issues_button: true
