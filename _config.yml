@@ -34,3 +34,15 @@ aux_links:
 # Navigation settings
 nav_order: 1  # Control sidebar page order
 nav_sort: case_insensitive  # Optional: Sort navigation item alphabetically
+
+# Enable right-hand TOC sidebar for each page
+toc: true
+toc_label: "On this page"
+toc_sticky: true  # Sticks TOC while scrolling
+
+# Footer content
+footer_content: "Copyright © 2024 David Schuster. Licensed under CC BY-NC-SA."
+
+# Back-to-top button
+back_to_top: true
+back_to_top_text: "Back to top"
