@@ -1,10 +1,10 @@
 # Theme settings
-theme: jekyll-theme-minimal
+remote_theme: just-the-docs/just-the-docs
 
 # Book settings
-title: APEX Stats
-author: David Schuster
-logo: logo.png
+title: "APEX Stats"
+author: "David Schuster"
+logo: "logo.png"
 
 # GitHub Pages URL settings
 url: "https://michellebacareinke.github.io"
@@ -25,12 +25,12 @@ highlighter: rouge
 gist:
   noscript: false
 
-# GitHub buttons for issues and repository
-html:
-  use_issues_button: true
-  use_repository_button: true
+# Just the Docs settings
+search_enabled: true  # Enable built-in search
+aux_links:
+  "APEX Stats Repository":
+    - "https://github.com/michellebacareinke/APEX_stats_book"
 
-# GitHub buttons for issues and repository
-html:
-  use_issues_button: true
-  use_repository_button: true
+# Navigation settings
+nav_order: 1  # Control sidebar page order
+nav_sort: case_insensitive  # Optional: Sort navigation item alphabetically
