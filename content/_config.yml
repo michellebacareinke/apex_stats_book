@@ -1,35 +1,43 @@
 # Theme settings
-theme: jekyll-theme-minimal
+theme: jekyll-theme-cayman
 
 # Book settings
 title: APEX Stats
 author: David Schuster
 logo: logo.png
 
-# Force re-execution of notebooks on each build.
-execute:
-  execute_notebooks: force
+# GitHub Pages URL settings
+url: "https://michellebacareinke.github.io"
+baseurl: "/APEX_stats_book"  # Repository name
 
-# Define the name of the latex output file for PDF builds
-latex:
-  latex_documents:
-    targetname: book.tex
+# Markdown processing
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
 
-# Add a bibtex file for citations
-bibtex_bibfiles:
-  - references.bib
-
-# Repository settings
-repository:
-  url: https://github.com/michellebacareinke/APEX_stats_book  # GitHub repository URL
-  path_to_book: ""  # Path to book (no sub folder, root directory)
-  branch: gh-pages  # Branch deploying from
+# Enable Jekyll for GitHub Pages
+lsi: false
+safe: true
+source: .  # Root directory
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
 
 # GitHub buttons for issues and repository
 html:
   use_issues_button: true
   use_repository_button: true
 
-# URL settings for GitHub Pages
-url: "https://michellebacareinke.github.io"  # GitHub Pages URL
-baseurl: "/APEX_stats_book"  # GitHub repository name
+# Default layout for pages
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "page"
+
+# GitHub buttons for issues and repository
+html:
+  use_issues_button: true
+  use_repository_button: true
