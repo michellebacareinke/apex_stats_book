@@ -1,7 +1,10 @@
 ---
 title: Welcome
+layout: default
 nav_order: 1
+toc: true
 ---
+
 
 # **APEX Stats Key Concepts** 
 
