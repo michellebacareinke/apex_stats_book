@@ -12,9 +12,4 @@ The following background is recommended before starting this module:
 2. **APEX Code Modules** Key concepts needed to complete the [APEX Stats Modules](https://github.com/vectrlab/apex-stats-modules#readme) effectively (i.e., interpret results and for practical application to similar problems in the future).
 
 ---
-
-<div style="display: flex; justify-content: space-between; margin-top: 20px;">
-    <a href="{{ site.baseurl }}/index.md" style="text-decoration: none; font-size: 16px;">⬅ Previous</a>
-    <a href="{{ site.baseurl }}/learn_outcome.md" style="text-decoration: none; font-size: 16px;">Next ➡</a>
-</div>
-
+[← Previous](index.md)         |        [Next →](learn_outcome.md)
