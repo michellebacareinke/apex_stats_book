@@ -35,10 +35,6 @@ gist:
 
 # Just the Docs settings
 search_enabled: true  # Enable built-in search
-# Enable search button
-  button: true
-# Focus search input (`ctrl + focus_shortcut_key`(or `cmd + focus_shortcut_key` on macOS)
-focus_shortcut_key: "k"
 aux_links:
   "APEX Stats Repository":
     - "https://github.com/michellebacareinke/apex_stats_book"
