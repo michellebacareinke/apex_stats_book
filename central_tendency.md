@@ -1,6 +1,8 @@
 ---
 title: "Central Tendency"
+layout: default
 nav_order: 5
+toc: true
 ---
 
 # **Central Tendency**
