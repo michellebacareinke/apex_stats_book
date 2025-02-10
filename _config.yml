@@ -10,6 +10,15 @@ logo: "logo.png"
 url: "https://michellebacareinke.github.io"
 baseurl: "/apex_stats_book"  # Repository name
 
+permalink: pretty
+
+defaults:
+  - scope:
+      path: "" # Empty string means all files
+      type: "pages"
+    values:
+      layout: "default"
+
 # Markdown processing
 markdown: kramdown
 kramdown:
@@ -41,7 +50,7 @@ toc_label: "On this page"
 toc_sticky: true  # Sticks TOC while scrolling
 
 # Footer content
-footer_content: "Copyright © 2024 David Schuster. Licensed under CC BY-NC-SA."
+footer_content: "Copyright © 2024 David Schuster."
 
 # Back-to-top button
 back_to_top: true
