@@ -3,7 +3,7 @@ title: "Background"
 nav_order: 2
 ---
 
-# Background
+# **Background**
 
 The following background is recommended before starting this module:
 
