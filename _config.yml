@@ -1,5 +1,7 @@
 # Theme settings
-theme: jekyll-theme-cayman
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+  - jekyll-remote-theme
 
 # Book settings
 title: APEX Stats
@@ -8,9 +10,9 @@ logo: logo.png
 
 # GitHub Pages URL settings
 url: "https://michellebacareinke.github.io"
-baseurl: "/APEX_stats_book"  # Make sure this matches your repo name
+baseurl: "/APEX_stats_book"  # Repository name
 
-# Markdown processing (Jekyll uses kramdown by default)
+# Markdown processing 
 markdown: kramdown
 kramdown:
   math_engine: mathjax
