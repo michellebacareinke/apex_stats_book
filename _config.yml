@@ -8,7 +8,7 @@ logo: "logo.png"
 
 # GitHub Pages URL settings
 url: "https://michellebacareinke.github.io"
-baseurl: "/APEX_stats_book"  # Repository name
+baseurl: "/apex_stats_book"  # Repository name
 
 # Markdown processing
 markdown: kramdown
@@ -29,7 +29,7 @@ gist:
 search_enabled: true  # Enable built-in search
 aux_links:
   "APEX Stats Repository":
-    - "https://github.com/michellebacareinke/APEX_stats_book"
+    - "https://github.com/michellebacareinke/apex_stats_book"
 
 # Navigation settings
 nav_order: 1  # Control sidebar page order
