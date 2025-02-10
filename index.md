@@ -1,5 +1,4 @@
 ---
-layout: default
 title: APEX Stats
 nav_order: 1
 ---
