@@ -1,5 +1,5 @@
 ---
-title: APEX STATS
+title: Welcome
 nav_order: 1
 ---
 
