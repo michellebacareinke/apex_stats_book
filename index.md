@@ -1,7 +1,8 @@
 ---
-title: APEX Stats
+title: APEX STATS
 nav_order: 1
 ---
+![APEX Stats Logo](logo.png)
 
 # Welcome to APEX STATS Key Concepts 
 
@@ -17,3 +18,7 @@ Release X.X
 - [Frequency Distributions](freq_dist.md)
 - [Central Tendency](central_tendency.md)
 - [Central Limit Theorem](clt.md)
+
+---
+
+ | [Next →](background.md)
