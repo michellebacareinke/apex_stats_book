@@ -1,11 +1,19 @@
-# Table of contents
-# Learn more at https://jupyterbook.org/customize/toc.html
+# Table of Contents for the APEX Stats Book
 
-format: jb-book
-root: index
-chapters:
-- file: background
-- file: learn_outcome
-- file: freq_dist
-- file: central_tendency
-- file: clt
+- title: "APEX Stats Book"  # Homepage section
+  url: "/index.md"  # Homepage file (index.md)
+
+- title: "Background"
+  url: "/background.md"
+
+- title: "Learning Outcomes"
+  url: "/learn_outcome.md"
+
+- title: "Frequency Distributions"
+  url: "/freq_dist.md"
+
+- title: "Central Tendency"
+  url: "/central_tendency.md"
+
+- title: "Central Limit Theorem"
+  url: "/clt.md"
