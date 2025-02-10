@@ -18,6 +18,3 @@ Release X.X
 - [Frequency Distributions](freq_dist.md)
 - [Central Tendency](central_tendency.md)
 - [Central Limit Theorem](clt.md)
-
-```{tableofcontents}
-```
