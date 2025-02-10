@@ -65,5 +65,5 @@ Unlike the mean, other measures of central tendency, i.e., the median and mode, 
 
 ---
 
-[← Previous](freq_dist.md)    |    [Next →](clt.md)
+[← Previous](freq_dist.md) | [Next →](clt.md)
 
