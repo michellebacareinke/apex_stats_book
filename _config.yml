@@ -1,35 +1,14 @@
 # Theme settings
-remote_theme: pmarsceill/just-the-docs
+theme: jekyll-theme-cayman
 
 # Book settings
 title: APEX Stats
 author: David Schuster
 logo: logo.png
 
-# Just the Docs theme settings
-color_scheme: dark  # Options: light, dark
-search_enabled: true
-nav_sort: case_insensitive  # Ensures alphabetical sorting
-back_to_top: true
-
-# Force re-execution of notebooks on each build.
-execute:
-  execute_notebooks: force
-
-# Define the name of the LaTeX output file for PDF builds
-latex:
-  latex_documents:
-    targetname: book.tex
-
-# Add a bibtex file for citations
-bibtex_bibfiles:
-  - references.bib
-
-# Repository settings
-repository:
-  url: https://github.com/michellebacareinke/APEX_stats_book  # GitHub repository URL
-  path_to_book: ""  # Path to book (root directory)
-  branch: main  # Branch deploying from
+# GitHub Pages URL settings
+url: "https://michellebacareinke.github.io"
+baseurl: "/APEX_stats_book"  # Make sure this matches your repo name
 
 # Markdown processing (Jekyll uses kramdown by default)
 markdown: kramdown
@@ -50,11 +29,3 @@ gist:
 html:
   use_issues_button: true
   use_repository_button: true
-
-# Enable required plugins
-plugins:
-  - jekyll-remote-theme
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-include-cache
