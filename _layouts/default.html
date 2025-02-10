@@ -4,13 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }} | {{ site.title }}</title>
-  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/custom.css" | relative_url }}">
 </head>
 <body>
   <div class="container">
     <header>
       <h1>{{ site.title }}</h1>
-      <p>{{ site.description }}</p>
     </header>
 
     <div class="content">
@@ -20,11 +19,11 @@
     <!-- Pagination for previous and next links -->
     <div class="pagination">
       {% if page.previous %}
-        <a href="{{ page.previous.url }}" class="previous-link">Previous</a>
+        <a href="{{ page.previous.url }}" class="previous-link">← Previous</a>
       {% endif %}
 
       {% if page.next %}
-        <a href="{{ page.next.url }}" class="next-link">Next</a>
+        <a href="{{ page.next.url }}" class="next-link">Next →</a>
       {% endif %}
     </div>
   </div>
