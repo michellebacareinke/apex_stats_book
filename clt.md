@@ -110,5 +110,6 @@ To summarize, the central limit theorem allows us to say useful things for resea
 - A larger sample size reduces the standard error of the mean. Larger sample sizes give us better estimates of the mean.
 
 ---
-[← Previous](central_tendency.md)         |        [Next →](index.md)
+
+[← Previous](central_tendency.md) | [Next →](index.md)
 
