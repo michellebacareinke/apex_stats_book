@@ -3,7 +3,7 @@ title: "Central Limit Theorem"
 nav_order: 6
 ---
 
-# Central Limit Theorem
+# **Central Limit Theorem**
 Created by David Schuster, Valerie Carr, Morris Jones, and Andy Qui Le
 
 Licensed under CC BY-NC-SA
