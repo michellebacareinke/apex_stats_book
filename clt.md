@@ -1,6 +1,7 @@
 ---
 title: "Central Limit Theorem"
 nav_order: 6
+toc: true
 ---
 
 # **Central Limit Theorem**
