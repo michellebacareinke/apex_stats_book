@@ -12,4 +12,5 @@ The following background is recommended before starting this module:
 2. **APEX Code Modules** Key concepts needed to complete the [APEX Stats Modules](https://github.com/vectrlab/apex-stats-modules#readme) effectively (i.e., interpret results and for practical application to similar problems in the future).
 
 ---
-[← Previous](index.md)         |        [Next →](learn_outcome.md)
+
+[← Previous](index.md) | [Next →](learn_outcome.md)
