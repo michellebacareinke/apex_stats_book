@@ -1,3 +1,8 @@
+---
+title: "Central Limit Theorem"
+nav_order: 5
+---
+
 # Central Limit Theorem
 Created by David Schuster, Valerie Carr, Morris Jones, and Andy Qui Le
 
@@ -103,4 +108,7 @@ To summarize, the central limit theorem allows us to say useful things for resea
 - Our sample means will vary. We can predict how much they vary by calculating the standard error.
 - It is possible to take a random sample and calculate the mean only to get a sample mean that is far away from the population mean, but this is unlikely to happen.
 - A larger sample size reduces the standard error of the mean. Larger sample sizes give us better estimates of the mean.
+
+---
+[← Previous](central_tendency.md)         |        [Next →](index.md)
 
