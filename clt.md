@@ -62,7 +62,7 @@ Some interesting things happened in the coding exercise. Before we continue, mak
 3. We repeated that process many times to create a list of 2000 sample means, creating our a distribution of sample means. This is the sampling distribution. Put another way, the units of a sampling distribution are sample means.
 
 
-What did you you notice when you look at the histogram of the sampling distribution? It should have been close to normally distributed! We started with a non-normal population and ended up with a normally distributed sampling distribution. This is one of the outcomes specified by the central limit theorem.
+What did you notice when you look at the histogram of the sampling distribution? It should have been close to normally distributed! We started with a non-normal population and ended up with a normally distributed sampling distribution. This is one of the outcomes specified by the central limit theorem.
 
 What did you notice about the difference between the mean of the sampling distribution and the mean of the population? It should have been small. It should have been the smallest value of all the examples in this section. This is another outcome specified by the central limit theorem. As we collect more and more sample means, the mean of the sampling distribution will approach the mean of the population.
 
